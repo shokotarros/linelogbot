@@ -14,8 +14,8 @@ const MONGO_DBNAME = 'linelogbot';
 const HOST = 'api.line.me';
 const REPLY_PATH = '/v2/bot/message/reply';     // reply用
 const PUSH_PATH  = '/v2/bot/message/multicast'; // push用
-const CH_SECRET       = ''; // Channel Secret // TODO: set value
-const CH_ACCESS_TOKEN = ''; // Channel Access Token // TODO: set value
+const CH_SECRET       = 'e078233a479660745f57078747c57429'; // Channel Secret // TODO: set value
+const CH_ACCESS_TOKEN = 'vY3SlTD/3myAFW5o8Qzyq9HNOPJKTKyg/n1LtD1RYl2jzl01hYFNJ2txRFPjMsQcrp4FAKOUqURD8O3dZb8LPn+ZJAYIVBLL+Muu4oARaxdUVhRdxJydILjNyqUqDyOJKmestnA9a2Gqh99mMAfXzAdB04t89/1O/w1cDnyilFU='; // Channel Access Token // TODO: set value
 const SIGNATURE = crypto.createHmac('sha256', CH_SECRET);
 const PORT = process.env.PORT || 3000;
 
