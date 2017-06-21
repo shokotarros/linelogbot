@@ -8,7 +8,7 @@ const MongoClient = require('mongodb').MongoClient;
 
 // const MONGO_URI = 'localhost:27017'
 // const MONGO_DBNAME = 'linelog'
-const MONGO_URI = 'nodegirls:n0deg@!r1s@ds030500.mlab.com:30500';
+const MONGO_URI = 'ishiguro:ishiguro1496@ds030500.mlab.com:30500';
 const MONGO_DBNAME = 'linelogbot';
 
 const HOST = 'api.line.me';
